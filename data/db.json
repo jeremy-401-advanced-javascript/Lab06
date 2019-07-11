@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "blah",
+      "display_name": "More Blah",
+      "description": "Blah blah blah blah"
+    },
+    {
+      "id": 2,
+      "description": "it works",
+      "display_name": "BOY",
+      "name": "jeremy"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "blah",
+      "name": "Little Blahbbie",
+      "display_name": "BlahMan",
+      "description": "Blah blah blah and more blah!"
+    }
+  ]
+}

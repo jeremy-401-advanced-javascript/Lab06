@@ -1,0 +1,94 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Simple-API",
+    "description" : "Building a simple API",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/categories" : {
+      "get" : {
+        "description" : "Categories object",
+        "responses" : {
+          "200" : {
+            "description" : "Sending categories object",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        }
+      },
+      "post" : {
+        "description" : "Post an item to categories",
+        "responses" : {
+          "200" : {
+            "description" : "Sending categories object",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/products" : {
+      "get" : {
+        "description" : "Products Object",
+        "responses" : {
+          "200" : {
+            "description" : "sending products object",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        }
+      },
+      "post" : {
+        "description" : "Post an item to categories",
+        "responses" : {
+          "200" : {
+            "description" : "Sending categories object",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    }
+  },
+  "components" : { }
+}
