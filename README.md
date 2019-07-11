@@ -9,4 +9,4 @@
 * [front-end](https://codesandbox.io/s/api-client-xdpie) 
 
 #### UML
-<img src="./assets/image_from_ios_160.jpg" width="100">
+<img src="./assets/images/image_from_ios_160.jpg" width="100">
